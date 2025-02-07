@@ -1,3 +1,45 @@
+/* Fix horizontal scrolling */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+/* Ensure all elements stay within viewport */
+.elementor-1068 .elementor-element {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Mobile specific fixes */
+@media (max-width: 767px) {
+    .elementor-1068 .elementor-element.elementor-element-5d6be5a {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .elementor-element-mockup-image {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    .elementor-widget-container {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
 .elementor-1068 .elementor-element.elementor-element-5d6be5a>.elementor-background-overlay {
     background-color: transparent;
     background-image: linear-gradient(180deg, #150F3DCC 0%, var( --e-global-color-044b931) 100%);
@@ -3435,11 +3477,11 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
         width: 70%;
     }
     .elementor-1068 .elementor-element.elementor-element-83e43a1 {
-        width: 49%;
+        width: 100%;
        
     }
     .elementor-1068 .elementor-element.elementor-element-490801a {
-        width: 49%;
+        width: 100%;
         
     }
     .elementor-1068 .elementor-element.elementor-element-426bde7 {
@@ -3500,3 +3542,291 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
         width: 100%;
     }
 }
+
+/* Video element styling */
+.elementor-element.elementor-element-751249f.elementor-widget.elementor-widget-video {
+    width: 100%;
+    aspect-ratio: 16/9;  /* Standard video aspect ratio */
+    height: auto;  /* Let height be determined by aspect ratio */
+}
+
+.elementor-element.elementor-element-751249f.elementor-widget.elementor-widget-video .elementor-widget-container {
+    width: 100%;
+    height: 100%;
+}
+
+.elementor-element.elementor-element-751249f.elementor-widget.elementor-widget-video .elementor-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.elementor-element.elementor-element-751249f.elementor-widget.elementor-widget-video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Specific styling for very small devices */
+@media (max-width: 390px) {
+    .elementor-element.elementor-element-751249f.elementor-widget.elementor-widget-video {
+        width: 100%;  /* Take up 90% of container width */
+        
+        max-width: 350px;  /* Maximum width for very small screens */
+    }
+}
+
+/* Main section styling */
+.elementor-1068 .elementor-element.elementor-element-457b318 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+/* Header section styling */
+.elementor-1068 .elementor-element.elementor-element-457b318 .elementor-element.elementor-element-f089a4a,
+.elementor-1068 .elementor-element.elementor-element-457b318 .elementor-element.elementor-element-4fb66f5,
+.elementor-1068 .elementor-element.elementor-element-457b318 .elementor-element.elementor-element-a5f3203 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 10px;
+}
+
+/* Features container */
+.elementor-1068 .elementor-element.elementor-element-457b318 .elementor-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Features grid */
+.elementor-1068 .elementor-element.elementor-element-42543c8 > .elementor-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Individual feature box styling */
+.elementor-1068 .elementor-element.elementor-element-42543c8 .elementor-icon-box-wrapper {
+    height: 100%;
+    min-height: 200px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Move CTA button below features */
+.elementor-1068 .elementor-element.elementor-element-d84b17b {
+    order: 3;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto 0 !important;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .elementor-1068 .elementor-element.elementor-element-42543c8 > .elementor-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-1068 .elementor-element.elementor-element-457b318 {
+        padding: 40px 15px;
+    }
+
+    .elementor-1068 .elementor-element.elementor-element-42543c8 > .elementor-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .elementor-1068 .elementor-element.elementor-element-42543c8 .elementor-icon-box-wrapper {
+        min-height: auto;
+        padding: 20px;
+    }
+}
+
+/* Ensure equal heights for feature boxes */
+.elementor-1068 .elementor-element.elementor-element-83e43a1,
+.elementor-1068 .elementor-element.elementor-element-490801a {
+    height: 100%;
+}
+
+/* Reset column widths */
+.elementor-1068 .elementor-element.elementor-element-122d9de,
+.elementor-1068 .elementor-element.elementor-element-cfb2254 {
+    width: 100% !important;
+}
+
+/* Container styling */
+.elementor-element.elementor-element-fb312b9 .elementor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Push last two boxes to center in new row */
+.elementor-element.elementor-element-fb312b9 .elementor-column:nth-last-child(-n+2) {
+    grid-column: span 1;
+    transform: translateX(50%);
+}
+
+/* Individual box styling */
+.elementor-element.elementor-element-fb312b9 .elementor-column {
+    width: 100% !important;
+    margin-bottom: 25px;
+}
+
+/* Box container */
+.elementor-element.elementor-element-fb312b9 .elementor-widget-wrap {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 25px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.elementor-element.elementor-element-fb312b9 .elementor-widget-wrap:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Content layout */
+.elementor-element.elementor-element-fb312b9 .elementor-icon-box-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Icon styling */
+.elementor-element.elementor-element-fb312b9 .elementor-icon-box-content:before {
+    content: "★";  /* You can change this to any icon */
+    font-size: 24px;
+    color: var(--e-global-color-accent);
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 50%;
+    min-width: 30px;
+    text-align: center;
+}
+
+/* Text content */
+.elementor-element.elementor-element-fb312b9 .elementor-icon-box-title {
+    margin: 0 0 8px 0 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-element.elementor-element-fb312b9 .elementor-icon-box-description {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--e-global-color-text);
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+    .elementor-element.elementor-element-fb312b9 .elementor-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .elementor-element.elementor-element-fb312b9 .elementor-column:nth-last-child(-n+2) {
+        transform: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-fb312b9 .elementor-container {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+    
+    .elementor-element.elementor-element-fb312b9 .elementor-widget-wrap {
+        padding: 20px !important;
+    }
+}
+
+/* Import the new font */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+/* Keep original font for Ultimate Personalized Numerology Report */
+.elementor-1068 .elementor-element.elementor-element-63958c8 .elementor-heading-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif !important;
+    font-weight: var(--e-global-typography-primary-font-weight) !important;
+}
+
+/* Change font for all other headings */
+.elementor-1068 .elementor-element .elementor-heading-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 .elementor-heading-title) {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px !important;
+}
+
+/* Apply new font to icon box titles */
+.elementor-1068 .elementor-element .elementor-icon-box-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px !important;
+}
+
+/* Apply new font to image box titles */
+.elementor-1068 .elementor-element .elementor-image-box-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px !important;
+}
+
+/* Additional styling for better hierarchy */
+.elementor-1068 .elementor-element h2:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
+    font-size: 32px !important;
+}
+
+.elementor-1068 .elementor-element h3:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
+    font-size: 28px !important;
+}
+
+.elementor-1068 .elementor-element .elementor-icon-box-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
+    font-size: 24px !important;
+}
+
+/* Style specifically Get Your Report CTA buttons */
+.elementor-button-text:contains("Get Your Report"),
+a[href*="zohosecurepay"] .elementor-button,
+.elementor-element-d84b17b .elementor-button,
+.elementor-button-link:has(.elementor-button-text:contains("Get Your Report")) {
+    border-radius: 15px !important;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Ensure the button wrapper also has the radius */
+.elementor-button-wrapper:has(.elementor-button-text:contains("Get Your Report")) {
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+/* Maintain radius on hover */
+.elementor-button-text:contains("Get Your Report"):hover,
+a[href*="zohosecurepay"] .elementor-button:hover,
+.elementor-element-d84b17b .elementor-button:hover {
+    border-radius: 15px !important;
+    transform: translateY(-2px);
+}
+

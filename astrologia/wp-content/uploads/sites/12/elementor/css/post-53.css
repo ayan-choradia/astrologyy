@@ -187,7 +187,17 @@
     .elementor-53 .elementor-element.elementor-element-b68125e {
         margin-top: 0em;
         margin-bottom: -7em;
-        left:20%
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .elementor-53 .elementor-element.elementor-element-b68125e .elementor-widget-container {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
     }
     .elementor-53 .elementor-element.elementor-element-4ce2642 {
         width: 80%;
