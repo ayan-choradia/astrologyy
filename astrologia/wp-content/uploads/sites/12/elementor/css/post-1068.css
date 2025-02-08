@@ -3771,8 +3771,8 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 /* Change font for all other headings */
 .elementor-1068 .elementor-element .elementor-heading-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 .elementor-heading-title) {
     font-family: 'Cormorant Garamond', serif !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.3px !important;
+    font-weight: 550 !important;
+    
     text-align: center;
 }
 
@@ -3780,14 +3780,14 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 .elementor-1068 .elementor-element .elementor-icon-box-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
     font-family: 'Cormorant Garamond', serif !important;
     font-weight: 600 !important;
-    letter-spacing: 0.3px !important;
+    
 }
 
 /* Apply new font to image box titles */
 .elementor-1068 .elementor-element .elementor-image-box-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
     font-family: 'Cormorant Garamond', serif !important;
     font-weight: 600 !important;
-    letter-spacing: 0.3px !important;
+    
 }
 
 /* Additional styling for better hierarchy */
@@ -3800,7 +3800,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 }
 
 .elementor-1068 .elementor-element .elementor-icon-box-title:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
-    font-size: 24px !important;
+    font-size: 18px !important;
 }
 
 /* Style specifically Get Your Report CTA buttons */
