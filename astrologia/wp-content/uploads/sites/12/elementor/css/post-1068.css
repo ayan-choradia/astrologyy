@@ -3708,11 +3708,12 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;    
 }
 
 /* Icon styling */
 .elementor-element.elementor-element-fb312b9 .elementor-icon-box-content:before {
-    content: "";  /* You can change this to any icon */
+   
     font-size: 24px;
     color: var(--e-global-color-accent);
     background: rgba(255,255,255,0.1);
@@ -3732,7 +3733,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 
 .elementor-element.elementor-element-fb312b9 .elementor-icon-box-description {
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     color: var(--e-global-color-text);
 }
