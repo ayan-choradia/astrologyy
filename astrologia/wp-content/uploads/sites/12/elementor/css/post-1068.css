@@ -7,8 +7,7 @@ html, body {
 
 .elementor-section.elementor-section-boxed > .elementor-container {
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+  
     box-sizing: border-box;
 }
 
@@ -21,8 +20,7 @@ html, body {
 /* Mobile specific fixes */
 @media (max-width: 767px) {
     .elementor-1068 .elementor-element.elementor-element-5d6be5a {
-        padding-left: 15px;
-        padding-right: 15px;
+       
         width: 100%;
         max-width: 100%;
     }
@@ -419,9 +417,9 @@ html, body {
     padding: 0em 0em 0em 0em;
 }
 
-.elementor-1068 .elementor-element.elementor-element-122d9de>.elementor-element-populated {
+/* .elementor-1068 .elementor-element.elementor-element-122d9de>.elementor-element-populated {
     padding: 3em 3em 3em 1em;
-}
+} */
 
 .elementor-1068 .elementor-element.elementor-element-c9cd544 {
     --grid-template-columns: repeat(0, auto);
@@ -2032,7 +2030,7 @@ html, body {
 }
 
 .elementor-1068 .elementor-element.elementor-element-ae4bd6f>.elementor-element-populated>.elementor-background-overlay {
-    background-image: url("/astrologia/wp-content/uploads/sites/12/2022/11/Asset-16img_.png");
+    background-image: url("");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2070,7 +2068,7 @@ html, body {
 }
 
 .elementor-1068 .elementor-element.elementor-element-247728a>.elementor-element-populated>.elementor-background-overlay {
-    background-image: url("/astrologia/wp-content/uploads/sites/12/2022/11/Asset-16img_.png");
+    background-image: url("");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2108,7 +2106,7 @@ html, body {
 }
 
 .elementor-1068 .elementor-element.elementor-element-e293a14>.elementor-element-populated>.elementor-background-overlay {
-    background-image: url("/astrologia/wp-content/uploads/sites/12/2022/11/Asset-16img_.png");
+    background-image: url("");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2146,7 +2144,7 @@ html, body {
 }
 
 .elementor-1068 .elementor-element.elementor-element-ac81ad0>.elementor-element-populated>.elementor-background-overlay {
-    background-image: url("/astrologia/wp-content/uploads/sites/12/2022/11/Asset-16img_.png");
+    background-image: url("");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2448,9 +2446,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
     --e-form-steps-divider-gap: 10px;
 }
 
-.elementor-1068 .elementor-element.elementor-element-812e84f>.elementor-element-populated {
-    padding: 3em 1em 3em 5em;
-}
+
 
 .elementor-1068 .elementor-element.elementor-element-c224231 {
     --icon-box-icon-margin: 21px;
@@ -2713,9 +2709,9 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
         font-size: var( --e-global-typography-7044a64-font-size);
         line-height: var( --e-global-typography-7044a64-line-height);
     }
-    .elementor-1068 .elementor-element.elementor-element-122d9de>.elementor-element-populated {
+    /* .elementor-1068 .elementor-element.elementor-element-122d9de>.elementor-element-populated {
         padding: 2em 2em 2em 2em;
-    }
+    } */
     .elementor-1068 .elementor-element.elementor-element-490801a>.elementor-element-populated {
         padding: 0em 0em 0em 0em;
     }
@@ -2931,7 +2927,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
         padding: 3em 0em 3em 0em;
     }
     .elementor-1068 .elementor-element.elementor-element-426bde7>.elementor-element-populated {
-        padding: 2em 2em 2em 2em;
+        padding: 1em 1em 1em 1em;
     }
     .elementor-1068 .elementor-element.elementor-element-2558190 {
         padding: 3em 0em 3em 1em;
@@ -2939,9 +2935,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
     .elementor-1068 .elementor-element.elementor-element-9c98877>.elementor-element-populated {
         padding: 2em 2em 2em 2em;
     }
-    .elementor-1068 .elementor-element.elementor-element-812e84f>.elementor-element-populated {
-        padding: 2em 2em 2em 2em;
-    }
+   
     .elementor-1068 .elementor-element.elementor-element-c224231 .elementor-icon-box-title,
     .elementor-1068 .elementor-element.elementor-element-c224231 .elementor-icon-box-title a {
         font-size: var( --e-global-typography-7044a64-font-size);
@@ -3492,7 +3486,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
     }
 }
 
-@media(max-width:1024px) and (min-width:768px) {
+@media(max-width:2024px) and (min-width:768px) {
     .elementor-1068 .elementor-element.elementor-element-122d9de {
         width: 100%;
     }
@@ -3594,6 +3588,8 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
     max-width: 800px;
     margin: 0 auto 10px;
 }
+
+
 
 /* Features container */
 .elementor-1068 .elementor-element.elementor-element-457b318 .elementor-container {
@@ -3716,7 +3712,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 
 /* Icon styling */
 .elementor-element.elementor-element-fb312b9 .elementor-icon-box-content:before {
-    content: "★";  /* You can change this to any icon */
+    content: "";  /* You can change this to any icon */
     font-size: 24px;
     color: var(--e-global-color-accent);
     background: rgba(255,255,255,0.1);
@@ -3777,6 +3773,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
     font-family: 'Cormorant Garamond', serif !important;
     font-weight: 600 !important;
     letter-spacing: 0.3px !important;
+    text-align: center;
 }
 
 /* Apply new font to icon box titles */
