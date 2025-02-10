@@ -4211,9 +4211,38 @@ body:not(.rtl) .elementor-1068 .elementor-element.elementor-element-4eeaa68 .ele
 }
 
 
+.elementor-heading-title.elementor-size-default {
+    text-align: left !important;
+}
+
 @media (max-width: 768px) {
     .elementor-1068 .elementor-element.elementor-element-25b91f9 .elementor-heading-title {
         font-size: 24px;
         line-height: 1.4em;
+    }
+}
+
+
+/* Mobile adjustments for icon box */
+@media screen and (max-width: 767px) {
+    .elementor-icon-box-icon .elementor-icon {
+        padding: 15px !important;
+        width: 50px !important;
+        height: 50px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    .elementor-icon-box-icon .elementor-icon img {
+        width: 24px !important;
+        height: 24px !important;
+        max-width: 100% !important;
+    }
+
+    /* Fix for icon alignment on mobile */
+    .elementor-widget-icon-box.elementor-mobile-position-left .elementor-icon-box-icon {
+        margin-right: 15px !important;
+        margin-bottom: 0 !important;
     }
 }
