@@ -2360,7 +2360,7 @@ html, body {
     background-size: cover;
 }
 
-.elementor-78734 .elementor-element.elementor-element-751249f .elementor-wrapper {
+.elementor-1068 .elementor-element.elementor-element-751249f .elementor-wrapper {
     --video-aspect-ratio: 1.77777;
 }
 
@@ -2589,6 +2589,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 
 .elementor-1068 .elementor-element.elementor-element-3b4f5f0 .elementor-main-swiper {
     width: 100%;
+    margin-top: 25px;
 }
 
 .elementor-1068 .elementor-element.elementor-element-3b4f5f0 .elementor-main-swiper .swiper-slide {
@@ -3862,6 +3863,7 @@ a[href*="zohosecurepay"] .elementor-button:hover,
     font-size: 26px !important;
     margin: 0 !important;
     line-height: 1.2 !important;
+    font-family: 'Cormorant Garamond', serif !important;
 }
 
 /* Compact button */
@@ -3883,5 +3885,335 @@ body {
     
     .elementor-button-text {
         font-size: 14px;
+    }
+}
+
+
+
+.elementor-1068 .elementor-element.elementor-element-56ae052:not(.elementor-motion-effects-element-type-background),
+.elementor-1068 .elementor-element.elementor-element-56ae052>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("/astrologia/wp-content/uploads/sites/12/2022/11/Group-35192.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-1068 .elementor-element.elementor-element-56ae052>.elementor-container {
+    max-width: 1272px;
+}
+
+.elementor-1068 .elementor-element.elementor-element-56ae052 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 50px 0px 50px 0px;
+}
+
+.elementor-1068 .elementor-element.elementor-element-56ae052>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-25b91f9 {
+    text-align: center;
+}
+
+.elementor-1068 .elementor-element.elementor-element-25b91f9 .elementor-heading-title {
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    
+}
+
+.elementor-1068 .elementor-element.elementor-element-1b0275f>.elementor-widget-container {
+    margin: 0px 0px 30px 0px;
+}
+
+.elementor-1068 .elementor-element.elementor-element-1b0275f {
+    text-align: center;
+}
+
+.elementor-1068 .elementor-element.elementor-element-1b0275f .elementor-heading-title {
+    font-family: "Josefin Sans", Sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.elementor-1068 .elementor-element.elementor-element-ba90561>.elementor-container {
+    max-width: 1272px;
+}
+.elementor-1068 .elementor-element.elementor-element-b3ab990 {
+    text-align: left;
+}
+
+.elementor-1068 .elementor-element.elementor-element-b3ab990 .elementor-heading-title {
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    
+}
+
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(10px/2);
+    margin-left: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2);
+}
+
+body.rtl .elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-10px/2);
+}
+
+body:not(.rtl) .elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-icon i {
+    color: #00C700;
+    transition: color 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-icon svg {
+    fill: #00C700;
+    transition: fill 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 {
+    --e-icon-list-icon-size: 25px;
+    --icon-vertical-offset: 0px;
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-item>a {
+    font-family: "Josefin Sans", Sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.elementor-1068 .elementor-element.elementor-element-114c088 .elementor-icon-list-text {
+   color: #000000;
+    transition: color 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-a993055>.elementor-container {
+    max-width: 1272px;
+}
+.elementor-1068 .elementor-element.elementor-element-f4d7b62 {
+    text-align: left;
+}
+
+.elementor-1068 .elementor-element.elementor-element-f4d7b62 .elementor-heading-title {
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(10px/2);
+    margin-left: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2);
+}
+
+body.rtl .elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-10px/2);
+}
+
+body:not(.rtl) .elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-icon i {
+    color: #00C700;
+    transition: color 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-icon svg {
+    fill: #00C700;
+    transition: fill 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 {
+    --e-icon-list-icon-size: 25px;
+    --icon-vertical-offset: 0px;
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-item>a {
+    font-family: "Josefin Sans", Sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.elementor-1068 .elementor-element.elementor-element-8341be7 .elementor-icon-list-text {
+    color: #000000;
+    transition: color 0.3s;
+}
+.elementor-1068 .elementor-element.elementor-element-dbf1a88>.elementor-container {
+    max-width: 1272px;
+}
+.elementor-1068 .elementor-element.elementor-element-f2ccd86 {
+    text-align: left;
+}
+
+.elementor-1068 .elementor-element.elementor-element-f2ccd86 .elementor-heading-title {
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(10px/2);
+    margin-left: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2);
+}
+
+body.rtl .elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-10px/2);
+}
+
+body:not(.rtl) .elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-icon i {
+    color: #00C700;
+    transition: color 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-icon svg {
+    fill: #00C700;
+    transition: fill 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa {
+    --e-icon-list-icon-size: 25px;
+    --icon-vertical-offset: 0px;
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-item>a {
+    font-family: "Josefin Sans", Sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.elementor-1068 .elementor-element.elementor-element-39567fa .elementor-icon-list-text {
+    color: #000000;
+    transition: color 0.3s;
+}
+.elementor-1068 .elementor-element.elementor-element-6d2972e>.elementor-container {
+    max-width: 1272px;
+}
+
+
+.elementor-1068 .elementor-element.elementor-element-6bacf75 {
+    text-align: left;
+}
+
+.elementor-1068 .elementor-element.elementor-element-6bacf75 .elementor-heading-title {
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+   
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(10px/2);
+    margin-left: calc(10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2);
+}
+
+body.rtl .elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-10px/2);
+}
+
+body:not(.rtl) .elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-10px/2);
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-icon i {
+    color: #00C700;
+    transition: color 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-icon svg {
+    fill: #00C700;
+    transition: fill 0.3s;
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 {
+    --e-icon-list-icon-size: 25px;
+    --icon-vertical-offset: 0px;
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-item>a {
+    font-family: "Josefin Sans", Sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.elementor-1068 .elementor-element.elementor-element-4eeaa68 .elementor-icon-list-text {
+    color: #000000;
+    transition: color 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    .elementor-1068 .elementor-element.elementor-element-25b91f9 .elementor-heading-title {
+        font-size: 24px;
+        line-height: 1.4em;
     }
 }
