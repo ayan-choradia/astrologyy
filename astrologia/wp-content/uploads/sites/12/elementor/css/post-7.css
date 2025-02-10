@@ -108,9 +108,9 @@
     letter-spacing: var( --e-global-typography-accent-letter-spacing);
     color: var( --e-global-color-text);
     border-style: solid;
-    border-width: 0px 0px 0px 0px;
-    border-color: var( --e-global-color-d49ac81);
-    border-radius: 0px 0px 0px 0px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
 .elementor-kit-7 button:hover,

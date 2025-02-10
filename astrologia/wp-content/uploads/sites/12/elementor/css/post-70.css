@@ -15,7 +15,7 @@
 
 .elementor-70 .elementor-element.elementor-element-2ae8632 {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 3em 0em 0em 0em;
+   
 }
 
 .elementor-70 .elementor-element.elementor-element-9d2bca8>.elementor-container {
@@ -23,7 +23,7 @@
 }
 
 .elementor-70 .elementor-element.elementor-element-9d2bca8 {
-    padding: 0em 0em 3em 0em;
+    
 }
 
 .elementor-70 .elementor-element.elementor-element-29797dd>.elementor-element-populated {
@@ -311,10 +311,10 @@ body .elementor-70 .elementor-element.elementor-element-c0281ca .elementor-label
 
 @media(max-width:1024px) {
     .elementor-70 .elementor-element.elementor-element-2ae8632 {
-        padding: 1em 0em 0em 0em;
+        
     }
     .elementor-70 .elementor-element.elementor-element-9d2bca8 {
-        padding: 0em 0em 2em 0em;
+       
     }
     .elementor-70 .elementor-element.elementor-element-21356da .elementor-heading-title {
         font-size: var( --e-global-typography-7044a64-font-size);
@@ -360,7 +360,7 @@ body .elementor-70 .elementor-element.elementor-element-c0281ca .elementor-label
 
 @media(max-width:767px) {
     .elementor-70 .elementor-element.elementor-element-9d2bca8 {
-        padding: 0em 0em 1em 0em;
+       
     }
     .elementor-70 .elementor-element.elementor-element-29797dd>.elementor-element-populated {
         padding: 1em 1em 1em 1em;

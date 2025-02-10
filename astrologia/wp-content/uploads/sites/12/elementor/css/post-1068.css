@@ -73,7 +73,7 @@ html, body {
 }
 
 .elementor-1068 .elementor-element.elementor-element-d6e4186 {
-    padding: 7em 0em 10em 0em;
+    padding: 7em 0em 0em 0em;
 }
 
 .elementor-1068 .elementor-element.elementor-element-f60b1f3.elementor-column>.elementor-widget-wrap {
@@ -136,6 +136,9 @@ html, body {
     border-style: solid;
     border-width: 2px 2px 2px 2px;
     border-color: var( --e-global-color-d49ac81);
+    border-radius: 15px;
+    border-color:rgb(255, 255, 255);
+    border-width: 2px;
 }
 
 .elementor-1068 .elementor-element.elementor-element-d50ae59 .elementor-button:hover,
@@ -1932,6 +1935,7 @@ html, body {
     background-image: url("/astrologia/wp-content/uploads/sites/12/2022/11/img_1.png");
     background-position: center center;
     background-repeat: no-repeat;
+    margin-top: 30px;
 }
 
 .elementor-1068 .elementor-element.elementor-element-743e874>.elementor-background-overlay {
@@ -2971,7 +2975,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 
 @media(max-width:767px) {
     .elementor-1068 .elementor-element.elementor-element-d6e4186 {
-        padding: 1em 0em 7em 0em;
+        padding: 1em 0em 0em 0em;
     }
     .elementor-1068 .elementor-element.elementor-element-f60b1f3>.elementor-element-populated {
         padding: 2em 1em 2em 1em;
@@ -3827,4 +3831,57 @@ a[href*="zohosecurepay"] .elementor-button:hover,
     border-radius: 15px !important;
     transform: translateY(-2px);
 }
+/* Reduce overall footer height */
+.elementor-70.elementor-location-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
 
+/* Reduce section padding */
+.elementor-section.elementor-element-2ae8632 {
+    padding: 5px 0 !important;
+}
+
+/* Reduce inner section padding */
+.elementor-element-9d2bca8 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Adjust widget spacing */
+.elementor-widget-wrap.elementor-element-populated {
+    padding: 5px 10px !important;
+}
+
+/* Reduce heading margin and size */
+.elementor-element-1fca41b .elementor-heading-title {
+    font-size: 26px !important;
+    margin: 0 !important;
+    line-height: 1.2 !important;
+}
+
+/* Compact button */
+.elementor-element-d84b17b .elementor-button {
+    padding: auto !important;
+    min-height: unset !important;
+}
+
+/* Adjust body padding to match new footer height */
+body {
+    padding-bottom: 70px !important;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        padding-bottom: 80px !important;
+    }
+    
+    .elementor-button-text {
+        font-size: 14px;
+    }
+}
