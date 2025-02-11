@@ -70,6 +70,7 @@ html, body {
 
 .elementor-1068 .elementor-element.elementor-element-d6e4186>.elementor-container {
     max-width: 720px;
+    bottom:15px;
 }
 
 .elementor-1068 .elementor-element.elementor-element-d6e4186 {
@@ -2189,7 +2190,7 @@ html, body {
 }
 
 .elementor-1068 .elementor-element.elementor-element-a4edc36 {
-    padding: 5em 0em 5em 0em;
+    padding: 2em 0em 2em 0em;
 }
 
 .elementor-1068 .elementor-element.elementor-element-426bde7>.elementor-element-populated>.elementor-background-overlay {
@@ -2375,7 +2376,7 @@ html, body {
 
 .elementor-1068 .elementor-element.elementor-element-2558190 {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 7em 0em 7em 0em;
+    padding: 3em 0em 3em 0em;
 }
 
 .elementor-1068 .elementor-element.elementor-element-08fb17c>.elementor-element-populated {
@@ -3799,7 +3800,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 
 /* Additional styling for better hierarchy */
 .elementor-1068 .elementor-element h2:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
-    font-size: 32px !important;
+    font-size: 36px !important;
 }
 
 .elementor-1068 .elementor-element h3:not(.elementor-1068 .elementor-element.elementor-element-63958c8 *) {
@@ -4451,7 +4452,7 @@ body:not(.rtl) .elementor-1068 .elementor-element.elementor-element-4eeaa68 .ele
     text-align: center;
     
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-top: 40px;
     position: relative;
     padding-bottom: 15px;
 }

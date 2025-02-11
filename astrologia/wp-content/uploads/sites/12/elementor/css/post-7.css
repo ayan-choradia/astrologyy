@@ -99,17 +99,17 @@
 .elementor-kit-7 input[type="button"],
 .elementor-kit-7 input[type="submit"],
 .elementor-kit-7 .elementor-button {
-    background-color: var( --e-global-color-d49ac81);
+    background-color: #FFE270;
     font-family: var( --e-global-typography-accent-font-family), Sans-serif;
     font-size: var( --e-global-typography-accent-font-size);
     font-weight: var( --e-global-typography-accent-font-weight);
     text-transform: var( --e-global-typography-accent-text-transform);
     line-height: var( --e-global-typography-accent-line-height);
     letter-spacing: var( --e-global-typography-accent-letter-spacing);
-    color: var( --e-global-color-text);
+    color: #000000;
     border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 
