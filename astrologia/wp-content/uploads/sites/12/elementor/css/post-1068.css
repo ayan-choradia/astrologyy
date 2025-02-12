@@ -3820,6 +3820,7 @@ a[href*="zohosecurepay"] .elementor-button,
     border-radius: 15px !important;
     overflow: hidden;
     transition: all 0.3s ease;
+    
 }
 
 /* Ensure the button wrapper also has the radius */
@@ -3834,6 +3835,7 @@ a[href*="zohosecurepay"] .elementor-button:hover,
 .elementor-element-d84b17b .elementor-button:hover {
     border-radius: 15px !important;
     transform: translateY(-2px);
+   
 }
 /* Reduce overall footer height */
 .elementor-70.elementor-location-footer {
@@ -3887,7 +3889,7 @@ body {
     }
     
     .elementor-button-text {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 

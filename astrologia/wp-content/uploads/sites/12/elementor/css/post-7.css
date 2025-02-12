@@ -25,11 +25,11 @@
     --e-global-typography-text-font-weight: 400;
     --e-global-typography-text-line-height: 1.5em;
     --e-global-typography-accent-font-family: "Josefin Sans";
-    --e-global-typography-accent-font-size: 14px;
-    --e-global-typography-accent-font-weight: 400;
+    --e-global-typography-accent-font-size: 16px;
+    --e-global-typography-accent-font-weight: 300;
     --e-global-typography-accent-text-transform: uppercase;
-    --e-global-typography-accent-line-height: 1em;
-    --e-global-typography-accent-letter-spacing: 1.5px;
+    --e-global-typography-accent-line-height: 2em;
+    --e-global-typography-accent-letter-spacing: 1.2px;
     --e-global-typography-b2ce6af-font-family: "Josefin Sans";
     --e-global-typography-b2ce6af-font-size: 18px;
     --e-global-typography-b2ce6af-font-weight: 400;
