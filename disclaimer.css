@@ -1,0 +1,106 @@
+/* Disclaimer Page Styling */
+.disclaimer-header {
+      background-color: var(--e-global-color-044b931);
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+  }
+  
+  .disclaimer-header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 3px;
+      background-color: #cc9e75;
+  }
+  
+  .disclaimer-title {
+      color: #cc9e75;
+      font-family: "Berkshire Swash", Sans-serif;
+      font-size: 48px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .disclaimer-content {
+      background-color: #fff;
+      padding: 60px 0;
+  }
+  
+  .disclaimer-text {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  .disclaimer-text h2 {
+      color: #cc9e75;
+      font-family: "Berkshire Swash", Sans-serif;
+      font-size: 28px;
+      margin: 40px 0 20px;
+  }
+  
+  .disclaimer-text h2:first-child {
+      margin-top: 0;
+  }
+  
+  .disclaimer-text p {
+      color: #666;
+      font-family: "Josefin Sans", Sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+  }
+  
+  .disclaimer-text a {
+      color: #cc9e75;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  }
+  
+  .disclaimer-text a:hover {
+      color: #b8484c;
+  }
+  
+  /* Mobile Responsive */
+  @media screen and (max-width: 767px) {
+      .disclaimer-header {
+          padding: 40px 20px;
+      }
+      
+      .disclaimer-title {
+          font-size: 36px;
+      }
+      
+      .disclaimer-content {
+          padding: 40px 0;
+      }
+      
+      .disclaimer-text h2 {
+          font-size: 24px;
+          margin: 30px 0 15px;
+      }
+      
+      .disclaimer-text p {
+          font-size: 15px;
+          line-height: 1.5;
+      }
+  }
+  
+  /* Print Styles */
+  @media print {
+      .disclaimer-header {
+          padding: 20px;
+      }
+      
+      .disclaimer-content {
+          padding: 20px 0;
+      }
+      
+      .disclaimer-text {
+          max-width: 100%;
+      }
+  }

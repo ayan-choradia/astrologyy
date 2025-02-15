@@ -3849,7 +3849,7 @@ a[href*="zohosecurepay"] .elementor-button:hover,
 
 /* Reduce section padding */
 .elementor-section.elementor-element-2ae8632 {
-    padding: 5px 0 !important;
+   
 }
 
 /* Reduce inner section padding */
@@ -3866,7 +3866,7 @@ a[href*="zohosecurepay"] .elementor-button:hover,
 /* Reduce heading margin and size */
 .elementor-element-1fca41b .elementor-heading-title {
     font-size: 26px !important;
-    margin: 0 !important;
+    
     line-height: 1.2 !important;
     font-family: 'Cormorant Garamond', serif !important;
 }
@@ -4528,5 +4528,93 @@ body:not(.rtl) .elementor-1068 .elementor-element.elementor-element-4eeaa68 .ele
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* General heading style */
+.elementor-heading-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+/* Specific style for "Hurry Offer Ends Soon" heading */
+.elementor-sticky--active .elementor-heading-title,
+.sticky-offer-text .elementor-heading-title {
+    margin-top: 0 !important;
+    font-size: 14px !important;
+    padding-bottom: 5px !important;
+}
+
+/* Mobile adjustments */
+@media(max-width: 767px) {
+    .elementor-sticky--active .elementor-heading-title,
+    .sticky-offer-text .elementor-heading-title {
+        font-size: 13px !important;
+        padding-bottom: 3px !important;
+    }
+}
+
+/* Compact spacing for offer text */
+.elementor-element-1fca41b {
+    margin-bottom: 5px !important;
+}
+
+.elementor-element-1fca41b .elementor-widget-container {
+    margin: 10px !important;
+    padding: 0 !important;
+}
+
+.elementor-element-1fca41b .elementor-heading-title {
+    padding: 0 !important;
+    top: 15px !important;
+    line-height: 1.7 !important;
+    font-size: 26px !important;
+
+}
+
+
+/* Policy Buttons Styling */
+.policy-buttons-wrap {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    flex-wrap: nowrap !important;
+    margin-top: 30px !important;
+}
+
+.policy-link {
+    text-decoration: none;
+}
+
+.policy-btn {
+    white-space: nowrap !important;
+}
+
+.policy-btn:hover {
+    background-color: #cc9e75 !important;
+    color: #fff !important;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 767px) {
+    .policy-buttons-wrap {
+        flex-direction: column !important; /* Changed to vertical stack */
+        align-items: center !important; /* Center align buttons */
+        gap: 8px !important; /* Reduced gap between stacked buttons */
+        margin-top: 20px !important;
+        padding: 0 10px !important;
+    }
+    
+    .policy-btn {
+        font-size: 11px !important;
+        padding: 5px 12px !important;
+        min-width: auto !important;
+        border-width: 1px !important;
+        border-radius: 4px !important;
+        line-height: 1.2 !important;
     }
 }
