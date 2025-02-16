@@ -3860,7 +3860,7 @@ a[href*="zohosecurepay"] .elementor-button:hover,
 
 /* Adjust widget spacing */
 .elementor-widget-wrap.elementor-element-populated {
-    padding: 5px 10px !important;
+    padding: 5px 8px !important;
 }
 
 /* Reduce heading margin and size */
@@ -3889,7 +3889,7 @@ body {
     }
     
     .elementor-button-text {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
