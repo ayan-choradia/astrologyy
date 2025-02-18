@@ -3814,7 +3814,7 @@ body .elementor-1068 .elementor-element.elementor-element-43b1f5c .elementor-lab
 
 /* Style specifically Get Your Report CTA buttons */
 .elementor-button-text:contains("Get Your Report"),
-a[href*="zohosecurepay"] .elementor-button,
+a[href*="pages.razorpay"] .elementor-button,
 .elementor-element-d84b17b .elementor-button,
 .elementor-button-link:has(.elementor-button-text:contains("Get Your Report")) {
     border-radius: 15px !important;
@@ -3831,7 +3831,7 @@ a[href*="zohosecurepay"] .elementor-button,
 
 /* Maintain radius on hover */
 .elementor-button-text:contains("Get Your Report"):hover,
-a[href*="zohosecurepay"] .elementor-button:hover,
+a[href*="razorpay"] .elementor-button:hover,
 .elementor-element-d84b17b .elementor-button:hover {
     border-radius: 15px !important;
     transform: translateY(-2px);
